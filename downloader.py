@@ -5,7 +5,7 @@ import os
 
 if not os.path.isdir("saeb-2017"):
 
-    link = "https://www.sample-videos.com/zip/10mb.zip"
+    link = "http://download.inep.gov.br/microdados/microdados_saeb_2017.zip"
     file_name = "saeb2017.zip"
 
     with open(file_name, "wb") as f:
